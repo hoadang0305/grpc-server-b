@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/hoadang0305/grpc-server-b/internal/controller/grpc"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/http"
+	"github.com/hoadang0305/grpc-server-b/public/controller/grpc"
+	"github.com/hoadang0305/grpc-server-b/public/controller/http"
 )
 
 type ApiContainer struct {

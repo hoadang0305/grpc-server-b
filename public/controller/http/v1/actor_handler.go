@@ -2,11 +2,11 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
-	httpcommon "github.com/hoadang0305/grpc-server-b/internal/domain/http_common"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/model"
-	"github.com/hoadang0305/grpc-server-b/internal/service"
-	"github.com/hoadang0305/grpc-server-b/internal/utils/validation"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
+	httpcommon "github.com/hoadang0305/grpc-server-b/public/domain/http_common"
+	"github.com/hoadang0305/grpc-server-b/public/domain/model"
+	"github.com/hoadang0305/grpc-server-b/public/service"
+	"github.com/hoadang0305/grpc-server-b/public/utils/validation"
 	"net/http"
 	"strconv"
 )

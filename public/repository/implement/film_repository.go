@@ -3,9 +3,9 @@ package repositoryimplement
 import (
 	"context"
 
-	"github.com/hoadang0305/grpc-server-b/internal/database"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
-	"github.com/hoadang0305/grpc-server-b/internal/repository"
+	"github.com/hoadang0305/grpc-server-b/public/database"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
+	"github.com/hoadang0305/grpc-server-b/public/repository"
 	"gorm.io/gorm"
 )
 

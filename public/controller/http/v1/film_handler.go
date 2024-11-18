@@ -1,18 +1,18 @@
 package v1
 
 import (
-	v1 "github.com/hoadang0305/grpc-server-b/internal/controller/grpc/v1"
-	"github.com/hoadang0305/grpc-server-b/internal/utils/validation"
+	v1 "github.com/hoadang0305/grpc-server-b/public/controller/grpc/v1"
+	"github.com/hoadang0305/grpc-server-b/public/utils/validation"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"net/http"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
-	httpcommon "github.com/hoadang0305/grpc-server-b/internal/domain/http_common"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/model"
-	"github.com/hoadang0305/grpc-server-b/internal/service"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
+	httpcommon "github.com/hoadang0305/grpc-server-b/public/domain/http_common"
+	"github.com/hoadang0305/grpc-server-b/public/domain/model"
+	"github.com/hoadang0305/grpc-server-b/public/service"
 )
 
 type FilmHandler struct {

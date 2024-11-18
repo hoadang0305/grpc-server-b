@@ -3,7 +3,7 @@ package http
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	v1 "github.com/hoadang0305/grpc-server-b/internal/controller/http/v1"
+	v1 "github.com/hoadang0305/grpc-server-b/public/controller/http/v1"
 	"net/http"
 	"os"
 	"strconv"

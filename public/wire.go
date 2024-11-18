@@ -1,18 +1,18 @@
 //go:build wireinject
 // +build wireinject
 
-package internal
+package public
 
 import (
 	"github.com/google/wire"
-	"github.com/hoadang0305/grpc-server-b/internal/controller"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/grpc"
-	filmGrpc "github.com/hoadang0305/grpc-server-b/internal/controller/grpc/v1"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/http"
-	v1 "github.com/hoadang0305/grpc-server-b/internal/controller/http/v1"
-	"github.com/hoadang0305/grpc-server-b/internal/database"
-	repositoryimplement "github.com/hoadang0305/grpc-server-b/internal/repository/implement"
-	serviceimplement "github.com/hoadang0305/grpc-server-b/internal/service/implement"
+	"github.com/hoadang0305/grpc-server-b/public/controller"
+	"github.com/hoadang0305/grpc-server-b/public/controller/grpc"
+	filmGrpc "github.com/hoadang0305/grpc-server-b/public/controller/grpc/v1"
+	"github.com/hoadang0305/grpc-server-b/public/controller/http"
+	v1 "github.com/hoadang0305/grpc-server-b/public/controller/http/v1"
+	"github.com/hoadang0305/grpc-server-b/public/database"
+	repositoryimplement "github.com/hoadang0305/grpc-server-b/public/repository/implement"
+	serviceimplement "github.com/hoadang0305/grpc-server-b/public/service/implement"
 )
 
 var container = wire.NewSet(

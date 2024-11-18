@@ -2,17 +2,17 @@ package startup
 
 import (
 	"github.com/gammazero/workerpool"
-	"github.com/hoadang0305/grpc-server-b/internal"
-	"github.com/hoadang0305/grpc-server-b/internal/controller"
-	"github.com/hoadang0305/grpc-server-b/internal/database"
-	"github.com/hoadang0305/grpc-server-b/internal/utils/validation"
+	"github.com/hoadang0305/grpc-server-b/public"
+	"github.com/hoadang0305/grpc-server-b/public/controller"
+	"github.com/hoadang0305/grpc-server-b/public/database"
+	"github.com/hoadang0305/grpc-server-b/public/utils/validation"
 )
 
 func registerDependencies() *controller.ApiContainer {
 	// Open database connection
 	db := database.Open()
 
-	return internal.InitializeContainer(db)
+	return public.InitializeContainer(db)
 }
 
 func startServers(container *controller.ApiContainer) {

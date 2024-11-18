@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	httpcommon "github.com/hoadang0305/grpc-server-b/internal/domain/http_common"
-	stringutils "github.com/hoadang0305/grpc-server-b/internal/utils/string_utils"
+	httpcommon "github.com/hoadang0305/grpc-server-b/public/domain/http_common"
+	stringutils "github.com/hoadang0305/grpc-server-b/public/utils/string_utils"
 	"net/http"
 	"strings"
 )

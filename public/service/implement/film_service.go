@@ -3,11 +3,11 @@ package serviceimplement
 import (
 	"context"
 
-	"github.com/hoadang0305/grpc-server-b/internal/domain/model"
+	"github.com/hoadang0305/grpc-server-b/public/domain/model"
 
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
-	"github.com/hoadang0305/grpc-server-b/internal/repository"
-	"github.com/hoadang0305/grpc-server-b/internal/service"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
+	"github.com/hoadang0305/grpc-server-b/public/repository"
+	"github.com/hoadang0305/grpc-server-b/public/service"
 )
 
 type FilmService struct {

@@ -4,18 +4,18 @@
 //go:build !wireinject
 // +build !wireinject
 
-package internal
+package public
 
 import (
 	"github.com/google/wire"
-	"github.com/hoadang0305/grpc-server-b/internal/controller"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/grpc"
-	v1_2 "github.com/hoadang0305/grpc-server-b/internal/controller/grpc/v1"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/http"
-	"github.com/hoadang0305/grpc-server-b/internal/controller/http/v1"
-	"github.com/hoadang0305/grpc-server-b/internal/database"
-	"github.com/hoadang0305/grpc-server-b/internal/repository/implement"
-	"github.com/hoadang0305/grpc-server-b/internal/service/implement"
+	"github.com/hoadang0305/grpc-server-b/public/controller"
+	"github.com/hoadang0305/grpc-server-b/public/controller/grpc"
+	v1_2 "github.com/hoadang0305/grpc-server-b/public/controller/grpc/v1"
+	"github.com/hoadang0305/grpc-server-b/public/controller/http"
+	"github.com/hoadang0305/grpc-server-b/public/controller/http/v1"
+	"github.com/hoadang0305/grpc-server-b/public/database"
+	"github.com/hoadang0305/grpc-server-b/public/repository/implement"
+	"github.com/hoadang0305/grpc-server-b/public/service/implement"
 )
 
 // Injectors from wire.go:

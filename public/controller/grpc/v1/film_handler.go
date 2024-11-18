@@ -2,8 +2,8 @@ package v1
 
 import (
 	"context"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
-	"github.com/hoadang0305/grpc-server-b/internal/service"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
+	"github.com/hoadang0305/grpc-server-b/public/service"
 )
 
 type FilmHandler struct {

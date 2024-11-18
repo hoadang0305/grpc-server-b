@@ -2,7 +2,7 @@ package grpc
 
 import (
 	"context"
-	v1 "github.com/hoadang0305/grpc-server-b/internal/controller/grpc/v1"
+	v1 "github.com/hoadang0305/grpc-server-b/public/controller/grpc/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"log"

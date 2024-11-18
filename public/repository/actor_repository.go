@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"github.com/hoadang0305/grpc-server-b/internal/domain/entity"
+	"github.com/hoadang0305/grpc-server-b/public/domain/entity"
 )
 
 type ActorRepository interface {
